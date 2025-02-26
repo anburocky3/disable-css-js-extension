@@ -6,10 +6,11 @@
 ![Anbuselvan Rocky Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fanburocky3%2Fdisable-css-js-extension)
 [![Support Server](https://img.shields.io/discord/742347296091537448.svg?label=Discord&logo=Discord&colorB=7289da)](https://bit.ly/cyberdudeDiscord)
 [![Cyberdude youtube](https://img.shields.io/youtube/channel/subscribers/UCteUj8bL1ppZcS70UCWrVfw?style=social)](https://bit.ly/cyberdudeYT)
+![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/jcciiagjkpknnjanioihiopnopjakbgo?logo=googlechrome&logoColor=green)
 
 A powerful Chrome extension that gives you control over webpage UI elements. Selectively disable CSS, JavaScript, images, popups, and manage cookies with a simple toggle interface.
 
-![Disable UI Extension](./screenshots/disable-ui.png)
+![Disable UI Extension](./screenshots/banner.png)
 
 ## ✨ Features
 
@@ -77,6 +78,20 @@ Contributions are welcome! Here's how you can help:
 3. Commit your changes: `git commit -m 'Add amazing feature'`
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
+
+### Publishing to Chrome Web Store
+
+To create a distribution package for the Chrome Web Store:
+
+1. Update the version in `package.json`
+2. Run the publish command:
+   ```bash
+   npm run publish
+   ```
+3. The command will:
+   - Build the extension
+   - Create a ZIP file named `disable-css-js-extension-[version].zip`
+   - Provide instructions for Chrome Web Store submission
 
 ## 📝 License
 

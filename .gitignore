@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 build
+
+# Build output
+disable-css-js*.zip

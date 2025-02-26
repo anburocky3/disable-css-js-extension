@@ -21,6 +21,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
+    "esModuleInterop": true,
+
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"],
@@ -28,5 +30,5 @@
       "@types/*": ["src/types/*"]
     }
   },
-  "include": ["src"]
+  "include": ["src", "scripts"]
 }

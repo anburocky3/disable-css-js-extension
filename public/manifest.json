@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "React Chrome Extension",
+  "name": "Disable HTML/CSS/JS",
   "description": "A Chrome extension to disable CSS, JS, images, block popups, manage cookies, and more on a webpage.",
   "version": "1.0.0",
   "author": "Anbuselvan Annamalai",
